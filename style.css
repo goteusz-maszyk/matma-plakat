@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body {
+  height: 100%;
+  background: linear-gradient(#000000b3, #000000b3), url(bckg.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fffff0
+}
+
+.container { 
+  height: 100%;
+}
+
+h1 {
+  font-size: 60pt;
+}
+
+h2 {
+  font-size: 25pt;
+  font-weight: 500;
+}
+
+footer {
+  font-size: 10pt;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Oswald';  
+  margin: 0;
+}
+
+.container {
+  padding: 10px 100px;
+}
+
+p {
+  font-family: 'PT Sans';
+  font-size: 25pt;
+}
+
+.maintext > p, li, footer {
+  font-family: 'Open Sans';
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: lightblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
