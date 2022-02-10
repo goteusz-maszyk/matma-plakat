@@ -42,7 +42,7 @@ p {
   font-size: 25pt;
 }
 
-.maintext > p, li, footer {
+.maintext, footer {
   font-family: 'Open Sans';
 }
 
@@ -53,4 +53,19 @@ a, a:visited, a:active {
 
 a:hover {
   text-decoration: underline;
+}
+
+table {
+  min-width: 50%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: #52525286;
+  border: 1px solid #dee2e6;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  vertical-align: top;
 }
